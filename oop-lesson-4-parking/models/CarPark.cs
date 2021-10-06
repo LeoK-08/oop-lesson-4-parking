@@ -18,6 +18,11 @@ namespace oop_lesson_4_parking
         {
             return "I am the CarPark()";
         }
+        public void AddCustomer(Customer newCustomer)
+        {
+
+            listOfCustomers.Add(newCustomer);
+        }
         public void CalculateCharges()
         {
 
